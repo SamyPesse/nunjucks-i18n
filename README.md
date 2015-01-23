@@ -39,3 +39,5 @@ Filter:
 ```html
 {{ "Hello __name__"|i18n('HELLOWORLD', __name__=name) }}
 ```
+
+The language is detected by default from the `__locale__` variable, the name if the variable can be changed using the `locale` option.
