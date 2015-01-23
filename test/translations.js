@@ -9,7 +9,11 @@ describe('Translations', function () {
     	assert.equal(tpl.render("helloworld.html", {__locale__: "zh"}), "Hello World");
     });
 
-    it('should correctly show translate a simple message', function() {
+    it('should correctly translate a message', function() {
     	assert.equal(tpl.render("helloworld.html", {__locale__: "fr"}), "Bonjour le monde");
+    });
+
+    it('should correctly show default message with a variable', function() {
+    	assert.equal(tpl.render("hello.html", {name: "Samy"}), "Hello Samy");
     });
 });
