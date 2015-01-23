@@ -1,0 +1,29 @@
+{
+    "name": "nunjucks-i18n",
+    "version": "0.0.0",
+    "homepage": "https://github.com/SamyPesse/nunjucks-i18n",
+    "description": "Nunjucks i18n extension",
+    "main": "lib/index.js",
+    "dependencies": {
+        "nunjucks": "*",
+        "lodash": "2.4.1"
+    },
+    "devDependencies": {
+        "mocha": "1.18.2"
+    },
+    "scripts": {
+        "test": "export TESTING=true; mocha --reporter list"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/SamyPesse/nunjucks-i18n.git"
+    },
+    "keywords": [
+        "nunjucks"
+    ],
+    "author": "Samy Pessé <samypesse@gmail.com>",
+    "license": "Apache 2",
+    "bugs": {
+        "url": "https://github.com/SamyPesse/nunjucks-i18n/issues"
+    }
+}
