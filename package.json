@@ -1,6 +1,6 @@
 {
     "name": "nunjucks-i18n",
-    "version": "0.0.0",
+    "version": "1.0.0",
     "homepage": "https://github.com/SamyPesse/nunjucks-i18n",
     "description": "Nunjucks i18n extension",
     "main": "lib/index.js",
