@@ -1,5 +1,6 @@
 # Nunjucks i18n
 
+[![Build Status](https://travis-ci.org/SamyPesse/nunjucks-i18n.png?branch=master)](https://travis-ci.org/SamyPesse/nunjucks-i18n)
 [![NPM version](https://badge.fury.io/js/nunjucks-i18n.svg)](http://badge.fury.io/js/nunjucks-i18n)
 
 Nunjucks extension to translate templates.
