@@ -16,4 +16,8 @@ describe('Translations', function () {
     it('should correctly show default message with a variable', function() {
     	assert.equal(tpl.render("hello.html", {name: "Samy"}), "Hello Samy");
     });
+
+    it('should correctly translate a message with a variable', function() {
+    	assert.equal(tpl.render("hello.html", {__locale__: "fr", name: "Samy"}), "Bonjour Samy");
+    });
 });

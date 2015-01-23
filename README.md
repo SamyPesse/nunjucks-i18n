@@ -26,9 +26,16 @@ env.addExtension('I18nExtension', new I18nExtension({
 }));
 ```
 
+Block:
 
 ```html
 {% i18n 'HELLOWORLD' __name__=name %}
 Hello __name__
 {% endi18n %}
+```
+
+Filter:
+
+```html
+{{ "Hello __name__"|i18n('HELLOWORLD', __name__=name) }}
 ```

@@ -8,7 +8,8 @@ env.addExtension('I18nExtension', new I18nExtension({
 	env: env,
 	translations: {
 		fr: {
-			HELLOWORLD: "Bonjour le monde"
+			HELLOWORLD: "Bonjour le monde",
+			HELLO: "Bonjour __name__"
 		}
 	}
 }));
