@@ -5,10 +5,10 @@
     "description": "Nunjucks i18n extension",
     "main": "lib/index.js",
     "dependencies": {
-        "nunjucks": "*",
         "lodash": "2.4.1"
     },
     "devDependencies": {
+        "nunjucks": "*",
         "mocha": "1.18.2"
     },
     "scripts": {

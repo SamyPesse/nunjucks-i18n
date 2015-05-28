@@ -14,7 +14,7 @@ $ npm install nunjucks-i18n
 ### How to use it?
 
 ```js
-var I18nExtension = require("nunjucks-i18n");
+var I18nExtension = require("nunjucks-i18n")(nunjucks);
 
 env.addExtension('I18nExtension', new I18nExtension({
 	env: env,
